@@ -1,0 +1,6 @@
+libnabo-dev:
+  ubuntu: [libnabo-dev]
+libpointmatcher-dev:
+  ubuntu: [libpointmatcher-dev]
+libxsensmt-dev:
+  ubuntu: [libxsensmt-dev]
