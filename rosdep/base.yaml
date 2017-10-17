@@ -1,6 +1,12 @@
+kindr:
+  ubuntu: [kindr]
 libnabo-dev:
   ubuntu: [libnabo-dev]
+liboptoforce_omd:
+  ubuntu: [liboptoforce_omd]
 libpointmatcher-dev:
   ubuntu: [libpointmatcher-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
+wmctrl:
+  ubuntu: [wmctrl]
