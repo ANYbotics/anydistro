@@ -12,5 +12,5 @@ Cloning this repo is not necessary, unless you want to modify it.
 
 To use these rules, run the following command in your console:
 
-    sudo bash -c 'echo "yaml https://raw.githubusercontent.com/ANYbotics/anydistro/master/rosdep/base.yaml" > /etc/ros/rosdep/sources.list.d/10-any.list'
+    sudo bash -c 'echo "yaml https://bitbucket.org/leggedrobotics/anydistro/raw/master/rosdep/base.yaml" > /etc/ros/rosdep/sources.list.d/10-any.list'
     rosdep update

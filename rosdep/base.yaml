@@ -1,24 +1,6 @@
-clang-7:
-  ubuntu: [clang-7]
-clang-format-7:
-  ubuntu: [clang-format-7]
-clang-tidy-7:
-  ubuntu: [clang-tidy-7]
-libirimager:
-  ubuntu: [libirimager]
-libompl-dev:
-  ubuntu: [libompl-dev]
 libnabo-dev:
   ubuntu: [libnabo-dev]
-libspinnaker-dev:
-  ubuntu: [libspinnaker1-dev]
 libpointmatcher-dev:
   ubuntu: [libpointmatcher-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
-python-rospkg:
-  ubuntu: [python-rospkg]
-python-serial:
-  ubuntu: [python-serial]
-qttools5-dev:
-  ubuntu: [qttools5-dev]
