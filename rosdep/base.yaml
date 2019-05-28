@@ -10,6 +10,8 @@ libompl-dev:
   ubuntu: [libompl-dev]
 libnabo-dev:
   ubuntu: [libnabo-dev]
+libspinnaker-dev:
+  ubuntu: [libspinnaker1-dev]
 libpointmatcher-dev:
   ubuntu: [libpointmatcher-dev]
 libxsensmt-dev:
