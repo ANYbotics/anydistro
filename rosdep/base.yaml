@@ -6,14 +6,14 @@ clang-tidy-7:
   ubuntu: [clang-tidy-7]
 libirimager:
   ubuntu: [libirimager]
-libompl-dev:
-  ubuntu: [libompl-dev]
 libnabo-dev:
   ubuntu: [libnabo-dev]
-libspinnaker-dev:
-  ubuntu: [libspinnaker1-dev]
+libompl-dev:
+  ubuntu: [libompl-dev]
 libpointmatcher-dev:
   ubuntu: [libpointmatcher-dev]
+libspinnaker-dev:
+  ubuntu: [libspinnaker1-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
 python-rospkg:
