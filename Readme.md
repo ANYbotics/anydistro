@@ -6,6 +6,8 @@ All official non-catkin dependencies are listed in the [rosdistro repository](ht
 The anydistro repository contains additional [rosdep](http://wiki.ros.org/rosdep) rules for unofficial dependencies.
 More information can be found [here](http://docs.ros.org/independent/api/rosdep/html/contributing_rules.html).
 
+The source code is released under a [BSD 3-Clause license](LICENSE).
+
 ## Installation
 
 Cloning this repo is not necessary, unless you want to modify it.
