@@ -12,6 +12,8 @@ libspinnaker-dev:
   ubuntu: [libspinnaker1-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
+python-progressbar:
+  ubuntu: [python-progressbar]
 python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
