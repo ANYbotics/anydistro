@@ -20,3 +20,5 @@ python-serial:
   ubuntu: [python-serial]
 qttools5-dev:
   ubuntu: [qttools5-dev]
+spinview:
+  ubuntu: [spinview-qt1]
