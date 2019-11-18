@@ -1,9 +1,25 @@
+aptitude:
+  ubuntu: [aptitude]
+arp-scan:
+  ubuntu: [arp-scan]
+bash-completion:
+  ubuntu: [bash-completion]
 clang-7:
   ubuntu: [clang-7]
 clang-format-7:
   ubuntu: [clang-format-7]
 clang-tidy-7:
   ubuntu: [clang-tidy-7]
+grub-efi:
+  ubuntu: [grub-efi]
+gnupg2:
+  ubuntu: [gnupg2]
+iftop:
+  ubuntu: [iftop]
+iotop:
+  ubuntu: [iotop]
+iperf3:
+  ubuntu: [iperf3]
 libirimager:
   ubuntu: [libirimager]
 libompl-dev:
@@ -12,6 +28,16 @@ libspinnaker-dev:
   ubuntu: [libspinnaker1-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
+'linux-4.15.0-48-lowlatency':
+  ubuntu: [linux-image-4.15.0-48-lowlatency, linux-headers-4.15.0-48-lowlatency]
+lsb-release:
+  ubuntu: [lsb-release]
+ltrace:
+  ubuntu: [ltrace]
+nano:
+  ubuntu: [nano]
+pciutils:
+  ubuntu: [pciutils]
 python-progressbar:
   ubuntu: [python-progressbar]
 python-rospkg:
@@ -22,3 +48,9 @@ qttools5-dev:
   ubuntu: [qttools5-dev]
 spinview:
   ubuntu: [spinview-qt1]
+strace:
+  ubuntu: [strace]
+sysbench:
+  ubuntu: [sysbench]
+ucf:
+  ubuntu: [ucf]
