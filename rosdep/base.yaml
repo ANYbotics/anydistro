@@ -38,6 +38,8 @@ nano:
   ubuntu: [nano]
 pciutils:
   ubuntu: [pciutils]
+python-cvxopt:
+  ubuntu: [python-cvxopt]
 python-progressbar:
   ubuntu: [python-progressbar]
 python-rospkg:
