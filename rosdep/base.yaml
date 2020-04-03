@@ -36,6 +36,8 @@ ltrace:
   ubuntu: [ltrace]
 nano:
   ubuntu: [nano]
+nload:
+  ubuntu: [nload]
 pciutils:
   ubuntu: [pciutils]
 python-cvxopt:
