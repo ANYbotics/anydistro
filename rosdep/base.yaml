@@ -42,6 +42,8 @@ pciutils:
   ubuntu: [pciutils]
 python-cvxopt:
   ubuntu: [python-cvxopt]
+python-igraph:
+  ubuntu: [python-igraph]
 python-progressbar:
   ubuntu: [python-progressbar]
 python-rospkg:
