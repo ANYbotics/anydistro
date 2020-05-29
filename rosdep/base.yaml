@@ -58,5 +58,7 @@ strace:
   ubuntu: [strace]
 sysbench:
   ubuntu: [sysbench]
+systemd-coredump:
+  ubuntu: [systemd-coredump]
 ucf:
   ubuntu: [ucf]
