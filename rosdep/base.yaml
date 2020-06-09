@@ -46,6 +46,8 @@ python-igraph:
   ubuntu: [python-igraph]
 python-progressbar:
   ubuntu: [python-progressbar]
+python-psutil:
+  ubuntu: [python-psutil]
 python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
