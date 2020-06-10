@@ -54,6 +54,8 @@ python-serial:
   ubuntu: [python-serial]
 qttools5-dev:
   ubuntu: [qttools5-dev]
+shutter:
+  ubuntu: [shutter]
 spinview:
   ubuntu: [spinview-qt1]
 strace:
