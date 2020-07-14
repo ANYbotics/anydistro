@@ -28,8 +28,10 @@ libspinnaker-dev:
   ubuntu: [libspinnaker1-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
-'linux-4.15.0-48-lowlatency':
-  ubuntu: [linux-image-4.15.0-48-lowlatency, linux-headers-4.15.0-48-lowlatency]
+linux-lowlatency:
+  ubuntu:
+    bionic: [linux-image-4.15.0-48-lowlatency, linux-headers-4.15.0-48-lowlatency]
+    focal: [linux-image-5.4.0-40-lowlatency, linux-headers-5.4.0-40-lowlatency]
 lsb-release:
   ubuntu: [lsb-release]
 ltrace:
