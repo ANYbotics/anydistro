@@ -68,3 +68,24 @@ systemd-coredump:
   ubuntu: [systemd-coredump]
 ucf:
   ubuntu: [ucf]
+# Fixme: packages below are a workaround for upstream ros packages not yet available in noetic. Remove once they are.
+serial:
+  ubuntu:
+    bionic: [ros-melodic-serial]
+    focal: [ros-noetic-serial]
+statistics_msgs:
+  ubuntu:
+    bionic: [ros-melodic-statistics-msgs]
+    focal: [ros-noetic-statistics-msgs]
+image_exposure_msgs:
+  ubuntu:
+    bionic: [ros-melodic-image-exposure-msgs]
+    focal: [ros-noetic-image-exposure-msgs]
+wfov_camera_msgs:
+  ubuntu:
+    bionic: [ros-melodic-wfov-camera-msgs]
+    focal: [ros-noetic-wfov-camera-msgs]
+velodyne_description:
+  ubuntu:
+    bionic: [ros-melodic-velodyne-description]
+    focal: [ros-noetic-velodyne-description]
