@@ -89,3 +89,7 @@ velodyne_description:
   ubuntu:
     bionic: [ros-melodic-velodyne-description]
     focal: [ros-noetic-velodyne-description]
+velodyne_gazebo_plugins:
+  ubuntu:
+    bionic: [ros-melodic-velodyne-gazebo-plugins]
+    focal: [ros-noetic-velodyne-gazebo-plugins]
