@@ -25,7 +25,9 @@ libirimager:
 libompl-dev:
   ubuntu: [libompl-dev]
 libspinnaker-dev:
-  ubuntu: [libspinnaker1-dev]
+  ubuntu:
+    bionic: [libspinnaker1-dev]
+    focal: [libspinnaker-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
 linux-lowlatency:
