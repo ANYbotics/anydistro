@@ -26,6 +26,9 @@ libirimager:
   ubuntu: [libirimager]
 libompl-dev:
   ubuntu: [libompl-dev]
+libspinnaker:
+  ubuntu:
+    focal: [libspinnaker]
 libspinnaker-dev:
   ubuntu:
     bionic: [libspinnaker1-dev]
