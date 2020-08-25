@@ -57,6 +57,8 @@ python-progressbar:
   ubuntu: [python-progressbar]
 python-psutil:
   ubuntu: [python-psutil]
+python-reportlab:
+  ubuntu: [python-reportlab]
 python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
