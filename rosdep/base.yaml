@@ -16,12 +16,18 @@ grub-efi:
   ubuntu: [grub-efi]
 gnupg2:
   ubuntu: [gnupg2]
+grpc++:
+  ubuntu: [libgrpc++1]
+grpc++-dev:
+  ubuntu: [libgrpc++-dev]
 iftop:
   ubuntu: [iftop]
 iotop:
   ubuntu: [iotop]
 iperf3:
   ubuntu: [iperf3]
+ipython3:
+  ubuntu: [ipython3]
 libirimager:
   ubuntu: [libirimager]
 libompl-dev:
@@ -49,6 +55,8 @@ nload:
   ubuntu: [nload]
 pciutils:
   ubuntu: [pciutils]
+protobuf-compiler-grpc:
+  ubuntu: [protobuf-compiler-grpc]
 python-cvxopt:
   ubuntu: [python-cvxopt]
 python-igraph:
@@ -63,6 +71,16 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-progressbar:
+  ubuntu: [python3-progressbar]
+python3-psutil:
+  ubuntu: [python3-psutil]
+python3-rospkg:
+  ubuntu: [python3-rospkg]  
+python3-scipy:
+  ubuntu: [python3-scipy]
+python3-serial:
+  ubuntu: [python3-serial]
 qttools5-dev:
   ubuntu: [qttools5-dev]
 shutter:
