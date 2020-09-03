@@ -75,6 +75,8 @@ python3-progressbar:
   ubuntu: [python3-progressbar]
 python3-psutil:
   ubuntu: [python3-psutil]
+python3-reportlab:
+  ubuntu: [python3-reportlab]
 python3-rospkg:
   ubuntu: [python3-rospkg]  
 python3-scipy:
