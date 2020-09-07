@@ -32,6 +32,35 @@ libirimager:
   ubuntu: [libirimager]
 libompl-dev:
   ubuntu: [libompl-dev]
+libpcl-common:
+  ubuntu:
+    bionic: [libpcl-common1.8]
+    focal: [libpcl-common1.8]
+libpcl-features:
+  ubuntu:
+    bionic: [libpcl-features1.8]
+    focal: [libpcl-features1.8]
+libpcl-filters:
+  ubuntu:
+    bionic: [libpcl-filters1.8]
+    focal: [libpcl-filters1.8]
+libpcl-io:
+  ubuntu:
+    bionic: [libpcl-io1.8]
+    focal: [libpcl-io1.8]
+libpcl-kdtree:
+  ubuntu:
+    bionic: [libpcl-kdtree1.8]
+    focal: [libpcl-kdtree1.8]
+libpcl-segmentation:
+  ubuntu:
+    bionic: [libpcl-segmentation1.8]
+    focal: [libpcl-segmentation1.8]
+libpcl-surface:
+  debian: [libpcl-surface1.8]
+  ubuntu:
+    bionic: [libpcl-surface1.8]
+    focal: [libpcl-surface1.8]
 libspinnaker:
   ubuntu:
     focal: [libspinnaker]
