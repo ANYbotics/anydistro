@@ -117,7 +117,9 @@ qttools5-dev:
 shutter:
   ubuntu: [shutter]
 spinview:
-  ubuntu: [spinview-qt1]
+  ubuntu:
+    bionic: [spinview-qt1]
+    focat: [spinview-qt]
 strace:
   ubuntu: [strace]
 sysbench:
