@@ -119,7 +119,7 @@ shutter:
 spinview:
   ubuntu:
     bionic: [spinview-qt1]
-    focat: [spinview-qt]
+    focal: [spinview-qt]
 strace:
   ubuntu: [strace]
 sysbench:
