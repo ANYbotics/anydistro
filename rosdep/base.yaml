@@ -120,6 +120,8 @@ spinview:
   ubuntu:
     bionic: [spinview-qt1]
     focal: [spinview-qt]
+sshfs:
+  ubuntu: [sshfs]
 strace:
   ubuntu: [strace]
 sysbench:
