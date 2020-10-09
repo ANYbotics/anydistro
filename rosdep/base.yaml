@@ -137,6 +137,16 @@ serial:
   ubuntu:
     bionic: [ros-melodic-serial]
     focal: [ros-noetic-serial]
+soci-dev:
+  debian: [libsoci-dev]
+  ubuntu:
+    bionic: [libsoci-dev]
+    focal: [libsoci-dev]
+soci-postgresql3.2:
+  debian: [libsoci-postgresql3.2]
+  ubuntu:
+    bionic: [libsoci-postgresql-3.2v5]
+    focal: [libsoci-postgresql-3.2v5]
 statistics_msgs:
   ubuntu:
     bionic: [ros-melodic-statistics-msgs]
