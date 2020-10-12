@@ -145,8 +145,8 @@ soci-dev:
 soci-postgresql3.2:
   debian: [libsoci-postgresql3.2]
   ubuntu:
-    bionic: [libsoci-postgresql-3.2v5]
-    focal: [libsoci-postgresql-3.2v5]
+    bionic: [libsoci-postgresql3.2v5]
+    focal: [libsoci-postgresql3.2v5]
 statistics_msgs:
   ubuntu:
     bionic: [ros-melodic-statistics-msgs]
