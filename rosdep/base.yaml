@@ -28,6 +28,8 @@ iperf3:
   ubuntu: [iperf3]
 ipython3:
   ubuntu: [ipython3]
+kmod:
+  ubuntu: [kmod]
 libirimager:
   ubuntu: [libirimager]
 libompl-dev:
