@@ -102,6 +102,8 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-gphoto2:
+  ubuntu: [python3-gphoto2]
 python3-progressbar:
   ubuntu: [python3-progressbar]
 python3-psutil:
