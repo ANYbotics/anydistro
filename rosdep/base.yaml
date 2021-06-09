@@ -116,6 +116,8 @@ python3-scipy:
   ubuntu: [python3-scipy]
 python3-serial:
   ubuntu: [python3-serial]
+python3-xmlschema:
+  ubuntu: [python3-xmlschema]
 qttools5-dev:
   ubuntu: [qttools5-dev]
 shutter:
