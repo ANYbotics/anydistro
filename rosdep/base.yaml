@@ -86,6 +86,8 @@ nload:
   ubuntu: [nload]
 pciutils:
   ubuntu: [pciutils]
+pdb_firmware:
+  ubuntu: [pdb-firmware]
 protobuf-compiler-grpc:
   ubuntu: [protobuf-compiler-grpc]
 python-cvxopt:
@@ -115,7 +117,7 @@ python3-psutil:
 python3-reportlab:
   ubuntu: [python3-reportlab]
 python3-rospkg:
-  ubuntu: [python3-rospkg]  
+  ubuntu: [python3-rospkg]
 python3-scipy:
   ubuntu: [python3-scipy]
 python3-serial:
