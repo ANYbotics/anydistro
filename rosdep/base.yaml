@@ -84,6 +84,8 @@ nano:
   ubuntu: [nano]
 nload:
   ubuntu: [nload]
+onnxruntime-dev:
+  ubuntu: [onnxruntime-dev]
 pciutils:
   ubuntu: [pciutils]
 pdb_firmware:
