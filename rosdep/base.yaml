@@ -12,6 +12,8 @@ clang-tidy-7:
   ubuntu: [clang-tidy-7]
 evo:
   ubuntu: [python3-evo]
+gedit:
+  ubuntu: [gedit]
 grub-efi:
   ubuntu: [grub-efi]
 gnupg2:
@@ -82,6 +84,8 @@ ltrace:
   ubuntu: [ltrace]
 nano:
   ubuntu: [nano]
+nautilus:
+  ubuntu: [nautilus]
 nload:
   ubuntu: [nload]
 onnxruntime-dev:
