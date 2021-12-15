@@ -4,6 +4,8 @@ arp-scan:
   ubuntu: [arp-scan]
 bash-completion:
   ubuntu: [bash-completion]
+binder:
+  ubuntu: [binder]
 clang-7:
   ubuntu: [clang-7]
 clang-format-7:
