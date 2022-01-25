@@ -116,10 +116,18 @@ python3-elementpath:
   ubuntu: [python3-elementpath]
 python3-gphoto2:
   ubuntu: [python3-gphoto2]
+python3-grpcio:
+  ubuntu:
+    bionic: [python3-grpcio]
+    focal: [python3-grpcio]
 python3-nmap:
   ubuntu: [python3-nmap]
 python3-progressbar:
   ubuntu: [python3-progressbar]
+python3-protobuf:
+  ubuntu:
+    bionic: [python3-protobuf]
+    focal: [python3-protobuf]
 python3-psutil:
   ubuntu: [python3-psutil]
 python3-reportlab:
