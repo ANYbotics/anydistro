@@ -6,6 +6,8 @@ bash-completion:
   ubuntu: [bash-completion]
 binder:
   ubuntu: [binder]
+binder-dev:
+  ubuntu: [binder-dev]
 clang-7:
   ubuntu: [clang-7]
 clang-format-7:
