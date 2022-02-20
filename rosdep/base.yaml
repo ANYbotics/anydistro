@@ -8,6 +8,10 @@ binder:
   ubuntu: [binder]
 binder-dev:
   ubuntu: [binder-dev]
+catkin:
+  ubuntu:
+    bionic: [ros-melodic-catkin]
+    focal: [ros-noetic-catkin]
 clang-7:
   ubuntu: [clang-7]
 clang-format-7:
