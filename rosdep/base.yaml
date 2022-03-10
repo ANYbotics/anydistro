@@ -118,6 +118,8 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-cgroupspy:
+  ubuntu: [python3-cgroupspy]
 python3-elementpath:
   ubuntu: [python3-elementpath]
 python3-gphoto2:
