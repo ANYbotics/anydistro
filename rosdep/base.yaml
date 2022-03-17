@@ -18,7 +18,7 @@ clang-format-7:
   ubuntu: [clang-format-7]
 clang-tidy-7:
   ubuntu: [clang-tidy-7]
-evo:
+python3-evo:
   ubuntu: [python3-evo]
 gedit:
   ubuntu: [gedit]
