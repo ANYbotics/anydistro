@@ -1,3 +1,9 @@
+# The anymal_test_inspection_tour_sim system tests depends on the ANYmal dragon configuration.
+# As it is not part of the mono-repo the database does not know about it.
+# For now we add it here such that the CI finds the package.
+anymal_config_dragon:
+  ubuntu:
+    focal: [ros-noetic-anymal-config-dragon]
 aptitude:
   ubuntu: [aptitude]
 arp-scan:
