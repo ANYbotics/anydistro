@@ -110,6 +110,10 @@ pdb_firmware:
   ubuntu: [pdb-firmware]
 protobuf-compiler-grpc:
   ubuntu: [protobuf-compiler-grpc]
+prometheus-node-exporter:
+  ubuntu: [prometheus-node-exporter]
+prometheus-process-exporter:
+  ubuntu: [prometheus-process-exporter]
 python-cvxopt:
   ubuntu: [python-cvxopt]
 python-igraph:
