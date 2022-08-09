@@ -46,6 +46,8 @@ ipython3:
   ubuntu: [ipython3]
 kmod:
   ubuntu: [kmod]
+libblosc:
+  ubuntu: [libblosc-dev]
 libirimager:
   ubuntu: [libirimager]
 libompl-dev:
