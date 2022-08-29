@@ -46,6 +46,8 @@ ipython3:
   ubuntu: [ipython3]
 kmod:
   ubuntu: [kmod]
+latexmk:
+  ubuntu: [latexmk]
 libblosc:
   ubuntu: [libblosc-dev]
 libirimager:
@@ -201,6 +203,8 @@ statistics_msgs:
   ubuntu:
     bionic: [ros-melodic-statistics-msgs]
     focal: [ros-noetic-statistics-msgs]
+texlive-xetex:
+  ubuntu: [texlive-xetex]
 image_exposure_msgs:
   ubuntu:
     bionic: [ros-melodic-image-exposure-msgs]
