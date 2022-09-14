@@ -4,6 +4,8 @@
 anymal_config_dragon:
   ubuntu:
     focal: [ros-noetic-anymal-config-dragon]
+anymal_maintainer_tools:
+  ubuntu: [anymal-maintainer-tools]
 aptitude:
   ubuntu: [aptitude]
 arp-scan:
