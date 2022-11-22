@@ -52,6 +52,8 @@ latexmk:
   ubuntu: [latexmk]
 libblosc:
   ubuntu: [libblosc-dev]
+libgbm:
+  ubuntu: [libgbm-dev]
 libirimager:
   ubuntu: [libirimager]
 libompl-dev:
@@ -94,6 +96,8 @@ libspinnaker-dev:
     focal: [libspinnaker-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
+libxtst6:
+  ubuntu: [libxtst6]
 linux-lowlatency:
   ubuntu:
     bionic: [linux-image-4.15.0-48-lowlatency, linux-headers-4.15.0-48-lowlatency]
@@ -223,3 +227,5 @@ velodyne_gazebo_plugins:
   ubuntu:
     bionic: [ros-melodic-velodyne-gazebo-plugins]
     focal: [ros-noetic-velodyne-gazebo-plugins]
+xauth:
+  ubuntu: [xauth]
