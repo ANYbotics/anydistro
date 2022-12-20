@@ -116,6 +116,8 @@ onnxruntime-dev:
   ubuntu: [onnxruntime-dev]
 pciutils:
   ubuntu: [pciutils]
+pdb_bootloader:
+  ubuntu: [pdb-bootloader]
 pdb_firmware:
   ubuntu: [pdb-firmware]
 protobuf-compiler-grpc:
