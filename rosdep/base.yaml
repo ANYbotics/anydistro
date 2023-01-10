@@ -94,6 +94,10 @@ libspinnaker-dev:
   ubuntu:
     bionic: [libspinnaker1-dev]
     focal: [libspinnaker-dev]
+libtorch:
+  ubuntu: [libtorch]
+libtorch-dev:
+  ubuntu: [libtorch-dev]
 libxsensmt-dev:
   ubuntu: [libxsensmt-dev]
 libxtst6:
