@@ -38,6 +38,8 @@ grpc++:
   ubuntu: [libgrpc++1]
 grpc++-dev:
   ubuntu: [libgrpc++-dev]
+grpc-web-proxy:
+  ubuntu: [grpc-web-proxy]
 iftop:
   ubuntu: [iftop]
 iotop:
