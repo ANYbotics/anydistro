@@ -40,6 +40,8 @@ grpc++-dev:
   ubuntu: [libgrpc++-dev]
 grpc-web-proxy:
   ubuntu: [grpc-web-proxy]
+gtsam:
+  ubuntu: [libgtsam-dev]
 iftop:
   ubuntu: [iftop]
 iotop:
