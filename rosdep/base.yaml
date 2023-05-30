@@ -202,6 +202,8 @@ systemd-coredump:
   ubuntu: [systemd-coredump]
 ucf:
   ubuntu: [ucf]
+wcb-openwrt:
+  ubuntu: [wcb-openwrt]
 # Fixme: packages below are a workaround for upstream ros packages not yet available in noetic. Remove once they are.
 serial:
   ubuntu:
