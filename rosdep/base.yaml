@@ -184,6 +184,9 @@ python3-xmlschema:
   ubuntu: [python3-xmlschema]
 qttools5-dev:
   ubuntu: [qttools5-dev]
+ros_rtsp:
+  ubuntu:
+    focal: [ros-noetic-ros-rtsp]
 shutter:
   ubuntu: [shutter]
 spinview:
