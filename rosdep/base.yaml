@@ -124,6 +124,8 @@ nload:
   ubuntu: [nload]
 onnxruntime-dev:
   ubuntu: [onnxruntime-dev]
+p7zip-full:
+  ubuntu: [p7zip-full]
 pciutils:
   ubuntu: [pciutils]
 pdb_bootloader:
