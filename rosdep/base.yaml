@@ -112,6 +112,8 @@ linux-lowlatency:
   ubuntu:
     bionic: [linux-image-4.15.0-48-lowlatency, linux-headers-4.15.0-48-lowlatency]
     focal: [linux-image-5.4.0-40-lowlatency, linux-headers-5.4.0-40-lowlatency]
+livekit-server:
+  ubuntu: [livekit-server]
 lsb-release:
   ubuntu: [lsb-release]
 ltrace:
