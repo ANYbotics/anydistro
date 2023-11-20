@@ -28,6 +28,8 @@ clang-tidy-7:
   ubuntu: [clang-tidy-7]
 python3-evo:
   ubuntu: [python3-evo]
+python3-pympler:
+  ubuntu: [python3-pympler]
 gedit:
   ubuntu: [gedit]
 grub-efi:
