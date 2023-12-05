@@ -106,8 +106,6 @@ libtorch:
   ubuntu: [libtorch]
 libtorch-dev:
   ubuntu: [libtorch-dev]
-libxsensmt-dev:
-  ubuntu: [libxsensmt-dev]
 libxtst6:
   ubuntu: [libxtst6]
 linux-lowlatency:
