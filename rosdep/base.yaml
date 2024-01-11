@@ -42,6 +42,10 @@ grpc++-dev:
   ubuntu: [libgrpc++-dev]
 grpc-web-proxy:
   ubuntu: [grpc-web-proxy]
+libabsl-dev:
+  ubuntu: [libabsl-dev]
+libabsl20230802:
+  ubuntu: [libabsl20230802]
 libgtsam-dev:
   ubuntu: [libgtsam-dev]
 libgtsam-unstable-dev:
