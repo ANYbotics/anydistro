@@ -160,8 +160,12 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-certifi:
+  ubuntu: [python3-certifi]
 python3-cgroupspy:
   ubuntu: [python3-cgroupspy]
+python3-croniter:
+  ubuntu: [python3-croniter]
 python3-elementpath:
   ubuntu: [python3-elementpath]
 python3-gphoto2:
@@ -190,6 +194,8 @@ python3-scipy:
   ubuntu: [python3-scipy]
 python3-serial:
   ubuntu: [python3-serial]
+python3-urllib3:
+  ubuntu: [python3-urllib3]
 python3-xmlschema:
   ubuntu: [python3-xmlschema]
 qttools5-dev:
