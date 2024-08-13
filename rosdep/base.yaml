@@ -207,6 +207,9 @@ ros_rtsp:
     focal: [ros-noetic-ros-rtsp]
 shutter:
   ubuntu: [shutter]
+# Package in anybotics/third_party_packaging with the firmware and update script for Sorama acoustic camera.
+sorama_firmware:
+  ubuntu: [sorama-firmware]
 spinview:
   ubuntu:
     bionic: [spinview-qt1]
