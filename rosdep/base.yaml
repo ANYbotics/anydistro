@@ -28,10 +28,16 @@ clang-format-7:
   ubuntu: [clang-format-7]
 clang-tidy-7:
   ubuntu: [clang-tidy-7]
+python3-evo:
+  ubuntu: [python3-evo]
+python3-pympler:
+  ubuntu: [python3-pympler]
 flake8:
   ubuntu: [flake8]
 gedit:
   ubuntu: [gedit]
+grub-efi:
+  ubuntu: [grub-efi]
 gnupg2:
   ubuntu: [gnupg2]
 grpc++:
@@ -40,14 +46,16 @@ grpc++-dev:
   ubuntu: [libgrpc++-dev]
 grpc-web-proxy:
   ubuntu: [grpc-web-proxy]
-grub-efi:
-  ubuntu: [grub-efi]
+libabsl-dev:
+  ubuntu: [libabsl-dev]
+libabsl20230802:
+  ubuntu: [libabsl20230802]
+libgtsam-dev:
+  ubuntu: [libgtsam-dev]
+libgtsam-unstable-dev:
+  ubuntu: [libgtsam-unstable-dev]
 iftop:
   ubuntu: [iftop]
-image_exposure_msgs:
-  ubuntu:
-    bionic: [ros-melodic-image-exposure-msgs]
-    focal: [ros-noetic-image-exposure-msgs]
 iotop:
   ubuntu: [iotop]
 iperf3:
@@ -58,18 +66,10 @@ kmod:
   ubuntu: [kmod]
 latexmk:
   ubuntu: [latexmk]
-libabsl-dev:
-  ubuntu: [libabsl-dev]
-libabsl20230802:
-  ubuntu: [libabsl20230802]
 libblosc:
   ubuntu: [libblosc-dev]
 libgbm:
   ubuntu: [libgbm-dev]
-libgtsam-dev:
-  ubuntu: [libgtsam-dev]
-libgtsam-unstable-dev:
-  ubuntu: [libgtsam-unstable-dev]
 libirimager:
   ubuntu: [libirimager]
 libompl-dev:
@@ -142,12 +142,12 @@ pdb_bootloader:
   ubuntu: [pdb-bootloader]
 pdb_firmware:
   ubuntu: [pdb-firmware]
+protobuf-compiler-grpc:
+  ubuntu: [protobuf-compiler-grpc]
 prometheus-node-exporter:
   ubuntu: [prometheus-node-exporter]
 prometheus-process-exporter:
   ubuntu: [prometheus-process-exporter]
-protobuf-compiler-grpc:
-  ubuntu: [protobuf-compiler-grpc]
 python-cvxopt:
   ubuntu: [python-cvxopt]
 python-igraph:
@@ -170,8 +170,6 @@ python3-croniter:
   ubuntu: [python3-croniter]
 python3-elementpath:
   ubuntu: [python3-elementpath]
-python3-evo:
-  ubuntu: [python3-evo]
 python3-gphoto2:
   ubuntu: [python3-gphoto2]
 python3-grpcio:
@@ -188,8 +186,6 @@ python3-protobuf:
     focal: [python3-protobuf]
 python3-psutil:
   ubuntu: [python3-psutil]
-python3-pympler:
-  ubuntu: [python3-pympler]
 python3-reportlab:
   ubuntu: [python3-reportlab]
 python3-rospkg:
@@ -209,13 +205,34 @@ qttools5-dev:
 ros_rtsp:
   ubuntu:
     focal: [ros-noetic-ros-rtsp]
+shutter:
+  ubuntu: [shutter]
+# Package in anybotics/third_party_packaging with the firmware and update script for Sorama acoustic camera.
+sorama_firmware:
+  ubuntu: [sorama-firmware]
+spinview:
+  ubuntu:
+    bionic: [spinview-qt1]
+    focal: [spinview-qt]
+sshfs:
+  ubuntu: [sshfs]
+strace:
+  ubuntu: [strace]
+sysbench:
+  ubuntu: [sysbench]
+systemd:
+  ubuntu: [systemd]
+systemd-coredump:
+  ubuntu: [systemd-coredump]
+ucf:
+  ubuntu: [ucf]
+wcb-openwrt:
+  ubuntu: [wcb-openwrt]
 # Fixme: packages below are a workaround for upstream ros packages not yet available in noetic. Remove once they are.
 serial:
   ubuntu:
     bionic: [ros-melodic-serial]
     focal: [ros-noetic-serial]
-shutter:
-  ubuntu: [shutter]
 soci-dev:
   debian: [libsoci-dev]
   ubuntu:
@@ -226,31 +243,20 @@ soci-postgresql3.2:
   ubuntu:
     bionic: [libsoci-postgresql3.2v5]
     focal: [libsoci-postgresql3.2v5]
-# Package in anybotics/third_party_packaging with the firmware and update script for Sorama acoustic camera.
-sorama_firmware:
-  ubuntu: [sorama-firmware]
-spinview:
-  ubuntu:
-    bionic: [spinview-qt1]
-    focal: [spinview-qt]
-sshfs:
-  ubuntu: [sshfs]
 statistics_msgs:
   ubuntu:
     bionic: [ros-melodic-statistics-msgs]
     focal: [ros-noetic-statistics-msgs]
-strace:
-  ubuntu: [strace]
-sysbench:
-  ubuntu: [sysbench]
-systemd:
-  ubuntu: [systemd]
-systemd-coredump:
-  ubuntu: [systemd-coredump]
 texlive-xetex:
   ubuntu: [texlive-xetex]
-ucf:
-  ubuntu: [ucf]
+image_exposure_msgs:
+  ubuntu:
+    bionic: [ros-melodic-image-exposure-msgs]
+    focal: [ros-noetic-image-exposure-msgs]
+wfov_camera_msgs:
+  ubuntu:
+    bionic: [ros-melodic-wfov-camera-msgs]
+    focal: [ros-noetic-wfov-camera-msgs]
 velodyne_description:
   ubuntu:
     bionic: [ros-melodic-velodyne-description]
@@ -259,11 +265,5 @@ velodyne_gazebo_plugins:
   ubuntu:
     bionic: [ros-melodic-velodyne-gazebo-plugins]
     focal: [ros-noetic-velodyne-gazebo-plugins]
-wcb-openwrt:
-  ubuntu: [wcb-openwrt]
-wfov_camera_msgs:
-  ubuntu:
-    bionic: [ros-melodic-wfov-camera-msgs]
-    focal: [ros-noetic-wfov-camera-msgs]
 xauth:
   ubuntu: [xauth]
