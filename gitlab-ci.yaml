@@ -1,0 +1,12 @@
+stages:
+  - format
+
+format_yaml:
+  stage: format
+  image:
+    # Using the same container as in your VSCode setup
+    name: mcr.microsoft.com/devcontainers/base:noble
+  script:
+    # CI=true variable switches format to be validate only. 
+    - ./format.bash
+
