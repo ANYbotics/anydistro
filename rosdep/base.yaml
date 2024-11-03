@@ -184,6 +184,7 @@ python3-grpcio:
   ubuntu:
     bionic: [python3-grpcio]
     focal: [python3-grpcio]
+    noble: [python3-grpcio]
 python3-nmap:
   ubuntu: [python3-nmap]
 python3-progressbar:
@@ -192,6 +193,7 @@ python3-protobuf:
   ubuntu:
     bionic: [python3-protobuf]
     focal: [python3-protobuf]
+    noble: [python3-protobuf]
 python3-psutil:
   ubuntu: [python3-psutil]
 python3-pympler:
