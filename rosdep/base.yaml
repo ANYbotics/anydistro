@@ -124,8 +124,8 @@ libxtst6:
   ubuntu: [libxtst6]
 linux-lowlatency:
   ubuntu:
-    bionic: [linux-image-4.15.0-48-lowlatency, linux-headers-4.15.0-48-lowlatency]
     focal: [linux-image-5.4.0-40-lowlatency, linux-headers-5.4.0-40-lowlatency]
+    noble: [linux-image-6.8.0-47-lowlatency, linux-headers-6.8.0-47-lowlatency]
 livekit-server:
   ubuntu: [livekit-server]
 lsb-release:
