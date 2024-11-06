@@ -35,7 +35,10 @@ gedit:
 gnupg2:
   ubuntu: [gnupg2]
 grpc++:
-  ubuntu: [libgrpc++1]
+  ubuntu:
+    bionic: [libgrpc++1]
+    focal: [libgrpc++1]
+    noble: [libgrpc++-dev]
 grpc++-dev:
   ubuntu: [libgrpc++-dev]
 grpc-web-proxy:
