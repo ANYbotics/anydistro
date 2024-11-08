@@ -14,6 +14,8 @@ arp-scan:
   ubuntu: [arp-scan]
 bash-completion:
   ubuntu: [bash-completion]
+bats:
+  ubuntu: [bats]
 binder:
   ubuntu: [binder]
 binder-dev:
@@ -22,14 +24,28 @@ catkin:
   ubuntu:
     bionic: [ros-melodic-catkin]
     focal: [ros-noetic-catkin]
+cgosdrv-dkms:
+  ubuntu: [cgosdrv-dkms]
 clang-7:
   ubuntu: [clang-7]
 clang-format-7:
   ubuntu: [clang-format-7]
 clang-tidy-7:
   ubuntu: [clang-tidy-7]
+clonezilla:
+  ubuntu: [clonezilla]
+debootstrap:
+  ubuntu: [debootstrap]
+dosfstools:
+  ubuntu: [dosfstools]
+fake-hwclock:
+  ubuntu: [fake-hwclock]
 flake8:
   ubuntu: [flake8]
+flashrom:
+  ubuntu: [flashrom]
+gas-sensor-board-firmware:
+  ubuntu: [gas-sensor-board-firmware]
 gedit:
   ubuntu: [gedit]
 gnupg2:
@@ -57,6 +73,8 @@ iperf3:
   ubuntu: [iperf3]
 ipython3:
   ubuntu: [ipython3]
+jupyter-qtconsole:
+  ubuntu: [jupyter-qtconsole]
 kmod:
   ubuntu: [kmod]
 latexmk:
@@ -75,6 +93,8 @@ libgtsam-unstable-dev:
   ubuntu: [libgtsam-unstable-dev]
 libirimager:
   ubuntu: [libirimager]
+libnss-mdns:
+  ubuntu: [libnss-mdns]
 libompl-dev:
   ubuntu: [libompl-dev]
 libpaho-mqtt.c:
@@ -112,6 +132,16 @@ libpcl-surface:
   ubuntu:
     bionic: [libpcl-surface1.8]
     focal: [libpcl-surface1.8]
+libpython3.9-dev:
+  ubuntu: [libpython3.9-dev]
+libqmi-utils:
+  ubuntu: [libqmi-utils]
+librealsense2-dkms:
+  ubuntu: [librealsense2-dkms]
+librealsense2-udev-rules:
+  ubuntu: [librealsense2-udev-rules]
+librealsense2-utils:
+  ubuntu: [librealsense2-utils]
 libspinnaker:
   ubuntu:
     focal: [libspinnaker]
@@ -129,34 +159,58 @@ linux-lowlatency:
   ubuntu:
     focal: [linux-image-5.4.0-40-lowlatency, linux-headers-5.4.0-40-lowlatency]
     noble: [linux-image-6.8.0-47-lowlatency, linux-headers-6.8.0-47-lowlatency]
+livekit-python-sdk:
+  ubuntu: [livekit-python-sdk]
 livekit-server:
   ubuntu: [livekit-server]
 lsb-release:
   ubuntu: [lsb-release]
 ltrace:
   ubuntu: [ltrace]
+memtester:
+  ubuntu: [memtester]
+modemmanager:
+  ubuntu: [modemmanager]
 nano:
   ubuntu: [nano]
 nautilus:
   ubuntu: [nautilus]
+netplan.io:
+  ubuntu: [netplan.io]
+nginx:
+  ubuntu: [nginx]
 nload:
   ubuntu: [nload]
 onnxruntime-dev:
   ubuntu: [onnxruntime-dev]
 p7zip-full:
   ubuntu: [p7zip-full]
+parted:
+  ubuntu: [parted]
 pciutils:
   ubuntu: [pciutils]
+pdb-bootloader:
+  ubuntu: [pdb-bootloader]
+pdb-firmware:
+  ubuntu: [pdb-firmware]
 pdb_bootloader:
   ubuntu: [pdb-bootloader]
 pdb_firmware:
   ubuntu: [pdb-firmware]
+plantuml:
+  ubuntu: [plantuml]
+policykit-1:
+  ubuntu: [policykit-1]
 prometheus-node-exporter:
   ubuntu: [prometheus-node-exporter]
 prometheus-process-exporter:
   ubuntu: [prometheus-process-exporter]
 protobuf-compiler-grpc:
   ubuntu: [protobuf-compiler-grpc]
+pylint:
+  ubuntu: [pylint]
+pyside2-tools:
+  ubuntu: [pyside2-tools]
 python-cvxopt:
   ubuntu: [python-cvxopt]
 python-igraph:
@@ -171,6 +225,10 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-apt:
+  ubuntu: [python3-apt]
+python3-asteval:
+  ubuntu: [python3-asteval]
 python3-certifi:
   ubuntu: [python3-certifi]
 python3-cgroupspy:
@@ -181,6 +239,16 @@ python3-elementpath:
   ubuntu: [python3-elementpath]
 python3-evo:
   ubuntu: [python3-evo]
+python3-fabric:
+  ubuntu: [python3-fabric]
+python3-flask-httpauth:
+  ubuntu: [python3-flask-httpauth]
+python3-flask-restful:
+  ubuntu: [python3-flask-restful]
+python3-freezegun:
+  ubuntu: [python3-freezegun]
+python3-genpy:
+  ubuntu: [python3-genpy]
 python3-gphoto2:
   ubuntu: [python3-gphoto2]
 python3-grpcio:
@@ -188,6 +256,14 @@ python3-grpcio:
     bionic: [python3-grpcio]
     focal: [python3-grpcio]
     noble: [python3-grpcio]
+python3-ifaddr:
+  ubuntu: [python3-ifaddr]
+python3-igraph:
+  ubuntu: [python3-igraph]
+python3-invoke:
+  ubuntu: [python3-invoke]
+python3-ipykernel:
+  ubuntu: [python3-ipykernel]
 python3-nmap:
   ubuntu: [python3-nmap]
 python3-progressbar:
@@ -199,12 +275,28 @@ python3-protobuf:
     noble: [python3-protobuf]
 python3-psutil:
   ubuntu: [python3-psutil]
+python3-pycountry:
+  ubuntu: [python3-pycountry]
 python3-pympler:
   ubuntu: [python3-pympler]
+python3-pyside2.qtprintsupport:
+  ubuntu: [python3-pyside2.qtprintsupport]
+python3-qtconsole:
+  ubuntu: [python3-qtconsole]
+python3-regex:
+  ubuntu: [python3-regex]
 python3-reportlab:
   ubuntu: [python3-reportlab]
+python3-rosbag:
+  ubuntu: [python3-rosbag]
 python3-rospkg:
   ubuntu: [python3-rospkg]
+python3-rospy:
+  ubuntu: [python3-rospy]
+python3-rospycgosdrv-dkms:
+  ubuntu: [python3-rospycgosdrv-dkms]
+python3-rostopic:
+  ubuntu: [python3-rostopic]
 python3-ruamel.yaml:
   ubuntu: [python3-ruamel.yaml]
 python3-scipy:
@@ -213,8 +305,14 @@ python3-serial:
   ubuntu: [python3-serial]
 python3-urllib3:
   ubuntu: [python3-urllib3]
+python3-xdg:
+  ubuntu: [python3-xdg]
 python3-xmlschema:
   ubuntu: [python3-xmlschema]
+python3.9:
+  ubuntu: [python3.9]
+python3.9-venv:
+  ubuntu: [python3.9-venv]
 qttools5-dev:
   ubuntu: [qttools5-dev]
 ros_rtsp:
@@ -227,6 +325,8 @@ serial:
     focal: [ros-noetic-serial]
 shutter:
   ubuntu: [shutter]
+sierra-wireless-firmware:
+  ubuntu: [sierra-wireless-firmware]
 soci-dev:
   debian: [libsoci-dev]
   ubuntu:
@@ -240,6 +340,10 @@ soci-postgresql3.2:
 # Package in anybotics/third_party_packaging with the firmware and update script for Sorama acoustic camera.
 sorama_firmware:
   ubuntu: [sorama-firmware]
+speedtest:
+  ubuntu: [speedtest]
+spinnaker:
+  ubuntu: [spinnaker]
 spinview:
   ubuntu:
     bionic: [spinview-qt1]
@@ -258,6 +362,8 @@ systemd:
   ubuntu: [systemd]
 systemd-coredump:
   ubuntu: [systemd-coredump]
+texlive-extra-utils:
+  ubuntu: [texlive-extra-utils]
 texlive-xetex:
   ubuntu: [texlive-xetex]
 ucf:
@@ -270,11 +376,17 @@ velodyne_gazebo_plugins:
   ubuntu:
     bionic: [ros-melodic-velodyne-gazebo-plugins]
     focal: [ros-noetic-velodyne-gazebo-plugins]
+vmagent:
+  ubuntu: [vmagent]
 wcb-openwrt:
   ubuntu: [wcb-openwrt]
+weasyprint:
+  ubuntu: [weasyprint]
 wfov_camera_msgs:
   ubuntu:
     bionic: [ros-melodic-wfov-camera-msgs]
     focal: [ros-noetic-wfov-camera-msgs]
 xauth:
   ubuntu: [xauth]
+zstd:
+  ubuntu: [zstd]
