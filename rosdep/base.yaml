@@ -4,12 +4,22 @@
 anymal_config_dragon:
   ubuntu:
     focal: [ros-noetic-anymal-config-dragon]
+anymal_config_interface:
+  ubuntu:
+    focal: [ros-noetic-anymal-config-interface]
+    noble: [anymal-config-interface]
+anymal_gui_resources:
+  ubuntu:
+    focal: [ros-noetic-anymal-gui-resources]
+    noble: [anymal-gui-resources]
 anymal_maintainer_tools:
   ubuntu: [anymal-maintainer-tools]
 anymal_pc_utils:
   ubuntu: [anymal-pc-utils]
 anymal_software_installer:
   ubuntu: [anymal-software-installer]
+anymal_startup_gui_utils:
+  ubuntu: [anymal-startup-gui-utils]
 aptitude:
   ubuntu: [aptitude]
 arp-scan:
