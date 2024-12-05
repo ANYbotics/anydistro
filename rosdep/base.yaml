@@ -5,9 +5,7 @@ anymal_config_dragon:
   ubuntu:
     focal: [ros-noetic-anymal-config-dragon]
 anymal_config_interface:
-  ubuntu:
-    focal: [ros-noetic-anymal-config-interface]
-    noble: [anymal-config-interface]
+  ubuntu: [anymal-config-interface]
 anymal_gui_resources:
   ubuntu:
     focal: [ros-noetic-anymal-gui-resources]
