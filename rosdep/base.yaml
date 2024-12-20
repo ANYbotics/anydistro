@@ -185,6 +185,8 @@ nano:
   ubuntu: [nano]
 nautilus:
   ubuntu: [nautilus]
+netcat:
+  ubuntu: [netcat]
 netplan.io:
   ubuntu: [netplan.io]
 nginx:
