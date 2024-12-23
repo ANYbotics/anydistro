@@ -85,6 +85,8 @@ ipython3:
   ubuntu: [ipython3]
 jupyter-qtconsole:
   ubuntu: [jupyter-qtconsole]
+keyutils:
+  ubuntu: [keyutils]
 kmod:
   ubuntu: [kmod]
 latexmk:
