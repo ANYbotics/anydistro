@@ -58,15 +58,19 @@ gas-sensor-board-firmware:
   ubuntu: [gas-sensor-board-firmware]
 gazebo:
   ubuntu:
+    focal: [gazebo11]
     noble: [gazebo11]
 gazebo_msgs:
   ubuntu:
+    focal: [ros-noetic-gazebo-msgs]
     noble: [ros-jazzy-gazebo-msgs]
 gazebo_plugins:
   ubuntu:
+    focal: [ros-noetic-gazebo-plugins]
     noble: [ros-jazzy-gazebo-plugins]
 gazebo_ros:
   ubuntu:
+    focal: [ros-noetic-gazebo-ros]
     noble: [ros-jazzy-gazebo-ros]
 gedit:
   ubuntu: [gedit]
