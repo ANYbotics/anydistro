@@ -56,6 +56,18 @@ flashrom:
   ubuntu: [flashrom]
 gas-sensor-board-firmware:
   ubuntu: [gas-sensor-board-firmware]
+gazebo:
+  ubuntu:
+    noble: [gazebo11]
+gazebo_msgs:
+  ubuntu:
+    noble: [ros-jazzy-gazebo-msgs]
+gazebo_plugins:
+  ubuntu:
+    noble: [ros-jazzy-gazebo-plugins]
+gazebo_ros:
+  ubuntu:
+    noble: [ros-jazzy-gazebo-ros]
 gedit:
   ubuntu: [gedit]
 gnupg2:
