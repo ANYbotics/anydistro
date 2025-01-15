@@ -113,6 +113,14 @@ libabsl20230802:
   ubuntu: [libabsl20230802]
 libblosc:
   ubuntu: [libblosc-dev]
+libgazebo-dev:
+  ubuntu:
+    focal: [libgazebo11-dev]
+    noble: [libgazebo11-dev]
+libgazebo11-dev:
+  ubuntu:
+    focal: [libgazebo11-dev]
+    noble: [libgazebo11-dev]
 libgbm:
   ubuntu: [libgbm-dev]
 libgtsam-dev:
