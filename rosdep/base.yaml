@@ -48,6 +48,8 @@ debootstrap:
   ubuntu: [debootstrap]
 dosfstools:
   ubuntu: [dosfstools]
+fail2ban:
+  ubuntu: [fail2ban]
 fake-hwclock:
   ubuntu: [fake-hwclock]
 flake8:
