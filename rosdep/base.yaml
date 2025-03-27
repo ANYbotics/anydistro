@@ -115,6 +115,12 @@ libabsl20230802:
   ubuntu: [libabsl20230802]
 libblosc:
   ubuntu: [libblosc-dev]
+libfftw3-dev:
+  ubuntu:
+    noble: [libfftw3-dev]
+libfftw3-double3:
+  ubuntu:
+    noble: [libfftw3-double3]
 libgazebo-dev:
   ubuntu:
     focal: [libgazebo11-dev]
