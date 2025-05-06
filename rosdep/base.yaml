@@ -273,6 +273,8 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-apriltag:
+  ubuntu: [python3-apriltag]
 python3-apt:
   ubuntu: [python3-apt]
 python3-asteval:
