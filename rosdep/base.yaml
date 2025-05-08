@@ -91,6 +91,8 @@ grpc-web-proxy:
   ubuntu: [grpc-web-proxy]
 grub-efi:
   ubuntu: [grub-efi]
+hdparm:
+  ubuntu: [hdparm]
 iftop:
   ubuntu: [iftop]
 image_exposure_msgs:
