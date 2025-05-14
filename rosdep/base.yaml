@@ -18,6 +18,8 @@ anymal_pc:
   ubuntu: [anymal-pc]
 anymal_pc_utils:
   ubuntu: [anymal-pc-utils]
+anymal_router:
+  ubuntu: [anymal-router]
 anymal_software_installer:
   ubuntu: [anymal-software-installer]
 anymal_startup_gui_utils:
