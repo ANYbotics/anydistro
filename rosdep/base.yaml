@@ -24,6 +24,8 @@ anymal_software_installer:
   ubuntu: [anymal-software-installer]
 anymal_startup_gui_utils:
   ubuntu: [anymal-startup-gui-utils]
+anynspector-firmware:
+  ubuntu: [anynspector-firmware]
 aptitude:
   ubuntu: [aptitude]
 arp-scan:
