@@ -22,6 +22,8 @@ anymal_router:
   ubuntu: [anymal-router]
 anymal_software_installer:
   ubuntu: [anymal-software-installer]
+anymal_startup_gui:
+  ubuntu: [anymal-startup-gui]
 anymal_startup_gui_utils:
   ubuntu: [anymal-startup-gui-utils]
 anynspector-firmware:
