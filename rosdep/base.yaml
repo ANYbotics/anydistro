@@ -109,6 +109,8 @@ image_exposure_msgs:
   ubuntu:
     bionic: [ros-melodic-image-exposure-msgs]
     focal: [ros-noetic-image-exposure-msgs]
+intel-gpu-tools:
+  ubuntu: [intel-gpu-tools]
 iotop:
   ubuntu: [iotop]
 iperf3:
