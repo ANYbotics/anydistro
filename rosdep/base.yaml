@@ -273,6 +273,8 @@ pylint:
   ubuntu: [pylint]
 pyside2-tools:
   ubuntu: [pyside2-tools]
+pytest-mock:
+  ubuntu: [python3-pytest-mock]
 python-cvxopt:
   ubuntu: [python-cvxopt]
 python-igraph:
