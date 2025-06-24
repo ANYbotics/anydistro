@@ -192,6 +192,8 @@ libpcl-surface:
   ubuntu:
     bionic: [libpcl-surface1.8]
     focal: [libpcl-surface1.8]
+libpython3.11-dev:
+  ubuntu: [libpython3.11-dev]
 libpython3.9-dev:
   ubuntu: [libpython3.9-dev]
 libqmi-utils:
