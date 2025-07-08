@@ -54,6 +54,8 @@ clang-format-7:
   ubuntu: [clang-format-7]
 clang-tidy-7:
   ubuntu: [clang-tidy-7]
+click-option-group:
+  ubuntu: [python3-click-option-group]
 clonezilla:
   ubuntu: [clonezilla]
 debootstrap:
