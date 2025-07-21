@@ -99,6 +99,8 @@ grpc++:
     noble: [libgrpc++-dev]
 grpc++-dev:
   ubuntu: [libgrpc++-dev]
+grpc-web-proxy:
+  ubuntu: [grpc-web-proxy]
 grub-efi:
   ubuntu: [grub-efi]
 hdparm:
