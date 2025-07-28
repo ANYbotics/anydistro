@@ -199,6 +199,10 @@ libpcl-surface:
     focal: [libpcl-surface1.8]
 libpython3.10-dev:
   ubuntu: [libpython3.10-dev]
+libpython3.10-dev:
+  ubuntu: [libpython3.10-dev]
+libpython3.11-dev:
+  ubuntu: [libpython3.11-dev]
 libpython3.11-dev:
   ubuntu: [libpython3.11-dev]
 libpython3.9-dev:
@@ -386,10 +390,18 @@ python3-xmlschema:
   ubuntu: [python3-xmlschema]
 python3.10:
   ubuntu: [python3.10]
+python3.10:
+  ubuntu: [python3.10]
+python3.10-venv:
+  ubuntu: [python3.10-venv]
 python3.10-venv:
   ubuntu: [python3.10-venv]
 python3.11:
   ubuntu: [python3.11]
+python3.11:
+  ubuntu: [python3.11]
+python3.11-venv:
+  ubuntu: [python3.11-venv]
 python3.11-venv:
   ubuntu: [python3.11-venv]
 python3.9:
