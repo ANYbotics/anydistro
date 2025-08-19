@@ -447,6 +447,9 @@ systemd:
   ubuntu: [systemd]
 systemd-coredump:
   ubuntu: [systemd-coredump]
+tensorflow:
+  ubuntu:
+    noble: [tensorflow]
 texlive-extra-utils:
   ubuntu: [texlive-extra-utils]
 texlive-xetex:
