@@ -61,6 +61,8 @@ click-option-group:
   ubuntu: [python3-click-option-group]
 clonezilla:
   ubuntu: [clonezilla]
+colcon-uv:
+  ubuntu: [python3-colcon-uv]
 debootstrap:
   ubuntu: [debootstrap]
 dosfstools:
