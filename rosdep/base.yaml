@@ -286,6 +286,8 @@ pylint:
   ubuntu: [pylint]
 pyside2-tools:
   ubuntu: [pyside2-tools]
+pytest-asyncio:
+  ubuntu: [python3-pytest-asyncio]
 pytest-mock:
   ubuntu: [python3-pytest-mock]
 python-cvxopt:
