@@ -6,6 +6,9 @@ ads_root_certificate:
 anyauth:
   ubuntu:
     noble: [anyauth]
+anycli:
+  ubuntu:
+    noble: [python3-anybotics.anycli]
 anymal_config_dragon:
   ubuntu:
     focal: [ros-noetic-anymal-config-dragon]
