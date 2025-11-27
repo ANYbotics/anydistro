@@ -465,6 +465,9 @@ texlive-extra-utils:
   ubuntu: [texlive-extra-utils]
 texlive-xetex:
   ubuntu: [texlive-xetex]
+tf-transformations:
+  ubuntu:
+    noble: [ros-jazzy-tf-transformations]
 ucf:
   ubuntu: [ucf]
 velodyne_description:
