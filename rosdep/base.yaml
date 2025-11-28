@@ -170,9 +170,11 @@ libompl-dev:
 libpaho-mqtt.c:
   ubuntu:
     focal: [libpaho-mqtt-dev]
+    noble: [libpaho-mqtt-dev]
 libpaho-mqtt.cpp:
   ubuntu:
     focal: [libpaho-mqttpp-dev]
+    noble: [libpaho-mqttpp-dev]
 libpcl-common:
   ubuntu:
     bionic: [libpcl-common1.8]
