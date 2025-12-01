@@ -247,6 +247,9 @@ make:
   ubuntu: [make]
 memtester:
   ubuntu: [memtester]
+minkowskiengine-wheel:
+  ubuntu:
+    noble: [minkowskiengine-wheel]
 modemmanager:
   ubuntu: [modemmanager]
 nano:
