@@ -5,10 +5,15 @@ ads_root_certificate:
 # For now we add it here such that the CI finds the package.
 anyauth:
   ubuntu:
+    focal: [anyauth]
     noble: [anyauth]
 anycli:
   ubuntu:
     noble: [python3-anybotics.anycli]
+anymal_cli:
+  ubuntu:
+    focal: [anymal-cli]
+    noble: [anymal-cli]
 anymal_config_dragon:
   ubuntu:
     focal: [ros-noetic-anymal-config-dragon]
