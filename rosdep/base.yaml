@@ -242,8 +242,6 @@ linux-lowlatency:
     noble: [linux-image-6.8.0-47-lowlatency, linux-headers-6.8.0-47-lowlatency]
 livekit-python-sdk:
   ubuntu: [livekit-python-sdk]
-livekit-server:
-  ubuntu: [livekit-server]
 lsb-release:
   ubuntu: [lsb-release]
 ltrace:
