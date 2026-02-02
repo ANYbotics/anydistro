@@ -482,6 +482,8 @@ tf-transformations:
     noble: [ros-jazzy-tf-transformations]
 ucf:
   ubuntu: [ucf]
+ufw:
+  ubuntu: [ufw]
 velodyne_description:
   ubuntu:
     bionic: [ros-melodic-velodyne-description]
