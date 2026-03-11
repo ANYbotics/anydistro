@@ -3,6 +3,9 @@ ads_root_certificate:
 # The anymal_test_inspection_tour_sim system tests depends on the ANYmal dragon configuration.
 # As it is not part of the mono-repo the database does not know about it.
 # For now we add it here such that the CI finds the package.
+any_librealsense2:
+  ubuntu:
+    noble: [ros-jazzy-any-librealsense2]
 anyauth:
   ubuntu:
     focal: [anyauth]
