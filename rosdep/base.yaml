@@ -443,11 +443,15 @@ soci-dev:
   ubuntu:
     bionic: [libsoci-dev]
     focal: [libsoci-dev]
+    noble: [libsoci-dev]
 soci-postgresql3.2:
   debian: [libsoci-postgresql3.2]
   ubuntu:
     bionic: [libsoci-postgresql3.2v5]
     focal: [libsoci-postgresql3.2v5]
+soci-sqlite3-4.0:
+  ubuntu:
+    noble: [libsoci-sqlite3-4.0]
 # Package in anybotics/third_party_packaging with the firmware and update script for Sorama acoustic camera.
 sorama_firmware:
   ubuntu: [sorama-firmware]
@@ -459,6 +463,9 @@ spinview:
   ubuntu:
     bionic: [spinview-qt1]
     focal: [spinview-qt]
+sqlite3-dev:
+  ubuntu:
+    noble: [libsqlite3-dev]
 sshfs:
   ubuntu: [sshfs]
 statistics_msgs:
