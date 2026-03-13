@@ -239,6 +239,8 @@ libtorch:
   ubuntu: [libtorch]
 libtorch-dev:
   ubuntu: [libtorch-dev]
+libtorch2:
+  ubuntu: [libtorch2]
 libxtst6:
   ubuntu: [libxtst6]
 linux-lowlatency:
