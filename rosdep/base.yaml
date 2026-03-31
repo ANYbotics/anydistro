@@ -56,6 +56,10 @@ binder:
   ubuntu: [binder]
 binder-dev:
   ubuntu: [binder-dev]
+boot_camp_data:
+  ubuntu:
+    focal: [ros-noetic-boot-camp-data]
+    noble: [boot-camp-data]
 catkin:
   ubuntu:
     bionic: [ros-melodic-catkin]
