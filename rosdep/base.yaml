@@ -280,6 +280,9 @@ nginx:
   ubuntu: [nginx]
 nload:
   ubuntu: [nload]
+nlohmann_json:
+  ubuntu:
+    noble: [nlohmann-json3-dev]
 onnxruntime-dev:
   ubuntu: [onnxruntime-dev]
 p7zip-full:
