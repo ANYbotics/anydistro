@@ -282,6 +282,7 @@ nload:
   ubuntu: [nload]
 nlohmann_json:
   ubuntu:
+    focal: [nlohmann-json3-dev]
     noble: [nlohmann-json3-dev]
 onnxruntime-dev:
   ubuntu: [onnxruntime-dev]
