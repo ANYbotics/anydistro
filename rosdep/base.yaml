@@ -326,6 +326,8 @@ python-progressbar:
   ubuntu: [python-progressbar]
 python-psutil:
   ubuntu: [python-psutil]
+python-pylint3:
+  ubuntu: [pylint]
 python-reportlab:
   ubuntu: [python-reportlab]
 python-rospkg:
