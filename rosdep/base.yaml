@@ -96,6 +96,10 @@ gazebo:
   ubuntu:
     focal: [gazebo11]
     noble: [gazebo11]
+gazebo_dev:
+  ubuntu:
+    focal: [ros-noetic-gazebo-dev]
+    noble: [ros-jazzy-gazebo-dev]
 gazebo_msgs:
   ubuntu:
     focal: [ros-noetic-gazebo-msgs]
