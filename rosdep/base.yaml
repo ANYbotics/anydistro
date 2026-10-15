@@ -265,6 +265,9 @@ ltrace:
   ubuntu: [ltrace]
 make:
   ubuntu: [make]
+mcap_cli:
+  ubuntu:
+    noble: [mcap-cli]
 memtester:
   ubuntu: [memtester]
 minkowskiengine-wheel:
