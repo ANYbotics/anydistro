@@ -273,6 +273,9 @@ memtester:
 minkowskiengine-wheel:
   ubuntu:
     noble: [minkowskiengine-wheel]
+mlops-client:
+  ubuntu:
+    noble: [mlops-client]
 modemmanager:
   ubuntu: [modemmanager]
 nano:
