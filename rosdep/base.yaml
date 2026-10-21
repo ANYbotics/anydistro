@@ -459,7 +459,6 @@ sierra-wireless-firmware:
 slam_testing_data:
   ubuntu:
     focal: [ros-noetic-slam-testing-data]
-    noble: [slam-testing-data]
 soci-dev:
   debian: [libsoci-dev]
   ubuntu:
