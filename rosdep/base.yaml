@@ -330,8 +330,14 @@ pytest-mock:
   ubuntu: [python3-pytest-mock]
 python-cvxopt:
   ubuntu: [python-cvxopt]
+python-dev:
+  ubuntu:
+    focal: [python2-dev]
 python-igraph:
   ubuntu: [python-igraph]
+python-numpy:
+  ubuntu:
+    focal: [python-numpy]
 python-progressbar:
   ubuntu: [python-progressbar]
 python-psutil:
