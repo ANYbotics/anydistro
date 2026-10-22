@@ -456,9 +456,11 @@ shutter:
   ubuntu: [shutter]
 sierra-wireless-firmware:
   ubuntu: [sierra-wireless-firmware]
+# Still a test_depend on release branches; master reads its test data from mlops storage instead.
 slam_testing_data:
   ubuntu:
     focal: [ros-noetic-slam-testing-data]
+    noble: [slam-testing-data]
 soci-dev:
   debian: [libsoci-dev]
   ubuntu:
