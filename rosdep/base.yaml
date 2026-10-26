@@ -350,6 +350,9 @@ python-rospkg:
   ubuntu: [python-rospkg]
 python-serial:
   ubuntu: [python-serial]
+python3-anymal-api-proto:
+  ubuntu:
+    noble: [python3-anymal-api-proto]
 python3-apriltag:
   ubuntu: [python3-apriltag]
 python3-apt:
