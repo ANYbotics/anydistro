@@ -129,6 +129,10 @@ grub-efi:
   ubuntu: [grub-efi]
 hdparm:
   ubuntu: [hdparm]
+# Packaged in anybotics/third_party_packaging (iceoryx2-cxx).
+iceoryx2_cxx:
+  ubuntu:
+    noble: [iceoryx2-cxx]
 iftop:
   ubuntu: [iftop]
 image_exposure_msgs:
