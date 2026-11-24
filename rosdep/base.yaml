@@ -320,6 +320,10 @@ pdb_bootloader:
   ubuntu: [pdb-bootloader]
 pdb_firmware:
   ubuntu: [pdb-firmware]
+# PlotJuggler bridge, not in rosdistro: the upstream release deb (amd64 only), mirrored to our apt repository.
+pj_bridge:
+  ubuntu:
+    noble: [ros-jazzy-pj-bridge]
 plantuml:
   ubuntu: [plantuml]
 policykit-1:
